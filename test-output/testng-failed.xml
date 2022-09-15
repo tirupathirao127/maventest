@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automationpractice.tests.SearchTest">
+        <methods>
+          <include name="withSearchTerm"/>
+        </methods>
+      </class> <!-- com.automationpractice.tests.SearchTest -->
+      <class name="com.automationpractice.tests.LoginTest">
+        <methods>
+          <include name="validCredentialsTest"/>
+        </methods>
+      </class> <!-- com.automationpractice.tests.LoginTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Test suite] -->
